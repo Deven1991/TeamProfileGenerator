@@ -1,0 +1,27 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "10-OOP-Homework",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Deven1991/TeamProfileGenerator.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Deven1991/TeamProfileGenerator/issues"
+    },
+    "homepage": "https://github.com/Deven1991/TeamProfileGenerator#readme",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^28.1.1"
+    }
+}
