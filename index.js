@@ -5,6 +5,7 @@ const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 const { generateTemplate } = require("./src/template")
 
+//questions user gets asked
 var answers = [];
 const mainQuestions = [{
     type: "input",
@@ -67,7 +68,7 @@ function init() {
             }
             inquirer.prompt([
                 {
-                    type: "checkbox",
+                    type: "list",
                     message: "Do you want to add more Employees to this team?",
                     name: "continue",
                     choices: ["Yes", "No"]
