@@ -67,7 +67,7 @@ function init() {
             }
             inquirer.prompt([
                 {
-                    type: "list",
+                    type: "checkbox",
                     message: "Do you want to add more Employees to this team?",
                     name: "continue",
                     choices: ["Yes", "No"]
