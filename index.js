@@ -3,7 +3,7 @@ const fs = require("fs");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
-const { generateTemplate } = require("./src/page-template")
+const { generateTemplate } = require("./src/template")
 
 var answers = [];
 const mainQuestions = [{
